@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>我的主页</string>
+		<key>VCName</key>
+		<string>Home</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>入党信息</string>
+		<key>VCName</key>
+		<string>message</string>
+		<key>detail</key>
+		<string>完成度0%</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我的工作</string>
+		<key>VCName</key>
+		<string>work</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我的好友</string>
+		<key>VCName</key>
+		<string>friend</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>手机绑定</string>
+		<key>VCName</key>
+		<string>binding</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>客服反馈</string>
+		<key>VCName</key>
+		<string>feedBack</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>客服</string>
+		<key>VCName</key>
+		<string>customer</string>
+	</dict>
+</array>
+</plist>

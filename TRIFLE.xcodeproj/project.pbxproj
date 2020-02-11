@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21CB6E4FB2113933E6AAC69C /* Pods_TRIFLE_TRIFLEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46E06868F63F52EAEB7A679 /* Pods_TRIFLE_TRIFLEUITests.framework */; };
+		2F1A5E5A23F1C2C600D409A8 /* UISegmentedControl-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5E5923F1C2C600D409A8 /* UISegmentedControl-Extension.swift */; };
+		2F1A5E5C23F1C94E00D409A8 /* TRRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5E5B23F1C94E00D409A8 /* TRRecommendViewController.swift */; };
+		2F1A5E5E23F1C97D00D409A8 /* TREttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5E5D23F1C97D00D409A8 /* TREttentionViewController.swift */; };
+		2F1A5E6023F1DA1F00D409A8 /* TRLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5E5F23F1DA1F00D409A8 /* TRLoginView.swift */; };
+		2F1A5E6223F1DEDA00D409A8 /* profile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F1A5E6123F1DEDA00D409A8 /* profile.plist */; };
 		2FE62EB123EAC92E0089165E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE62EB023EAC92E0089165E /* AppDelegate.swift */; };
-		2FE62EB323EAC92E0089165E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE62EB223EAC92E0089165E /* SceneDelegate.swift */; };
-		2FE62EB523EAC92E0089165E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE62EB423EAC92E0089165E /* ViewController.swift */; };
-		2FE62EB823EAC92E0089165E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE62EB623EAC92E0089165E /* Main.storyboard */; };
 		2FE62EBA23EAC92F0089165E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE62EB923EAC92F0089165E /* Assets.xcassets */; };
 		2FE62EBD23EAC92F0089165E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE62EBB23EAC92F0089165E /* LaunchScreen.storyboard */; };
 		2FE62EC823EAC92F0089165E /* TRIFLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE62EC723EAC92F0089165E /* TRIFLETests.swift */; };
 		2FE62ED323EAC92F0089165E /* TRIFLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE62ED223EAC92F0089165E /* TRIFLEUITests.swift */; };
+		2FEBA95323F057FD00BA14EE /* TRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95223F057FD00BA14EE /* TRTabBarController.swift */; };
+		2FEBA95523F058C300BA14EE /* TRHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95423F058C300BA14EE /* TRHomeViewController.swift */; };
+		2FEBA95723F0596F00BA14EE /* TRVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95623F0596F00BA14EE /* TRVideoViewController.swift */; };
+		2FEBA95923F059AA00BA14EE /* TRCommunicateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95823F059AA00BA14EE /* TRCommunicateViewController.swift */; };
+		2FEBA95B23F059F100BA14EE /* TRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95A23F059F100BA14EE /* TRProfileViewController.swift */; };
+		2FEBA95D23F05BED00BA14EE /* TRPublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95C23F05BED00BA14EE /* TRPublishViewController.swift */; };
+		2FF1BADB23F1B3D700468B7D /* UIImage-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1BADA23F1B3D700468B7D /* UIImage-Extension.swift */; };
+		3A0D79E19E342EDB8CB5E38F /* Pods_TRIFLETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247463F3BE9682B41348DA29 /* Pods_TRIFLETests.framework */; };
+		FDAB4D1E2E37243961875577 /* Pods_TRIFLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0CDA7EBBFCED3F44994F1C /* Pods_TRIFLE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07811A9D8D07955F1C5FC7BD /* Pods-TRIFLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLE.release.xcconfig"; path = "Target Support Files/Pods-TRIFLE/Pods-TRIFLE.release.xcconfig"; sourceTree = "<group>"; };
+		0AEB01FDC1FC133F344005D3 /* Pods-TRIFLE-TRIFLEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLE-TRIFLEUITests.release.xcconfig"; path = "Target Support Files/Pods-TRIFLE-TRIFLEUITests/Pods-TRIFLE-TRIFLEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		247463F3BE9682B41348DA29 /* Pods_TRIFLETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRIFLETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1A5E5923F1C2C600D409A8 /* UISegmentedControl-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl-Extension.swift"; sourceTree = "<group>"; };
+		2F1A5E5B23F1C94E00D409A8 /* TRRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRRecommendViewController.swift; sourceTree = "<group>"; };
+		2F1A5E5D23F1C97D00D409A8 /* TREttentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TREttentionViewController.swift; sourceTree = "<group>"; };
+		2F1A5E5F23F1DA1F00D409A8 /* TRLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRLoginView.swift; sourceTree = "<group>"; };
+		2F1A5E6123F1DEDA00D409A8 /* profile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = profile.plist; sourceTree = "<group>"; };
+		2F775C1A8B63CE1BA739C37D /* Pods-TRIFLE-TRIFLEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLE-TRIFLEUITests.debug.xcconfig"; path = "Target Support Files/Pods-TRIFLE-TRIFLEUITests/Pods-TRIFLE-TRIFLEUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FE62EAD23EAC92E0089165E /* TRIFLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRIFLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE62EB023EAC92E0089165E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FE62EB223EAC92E0089165E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FE62EB423EAC92E0089165E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FE62EB723EAC92E0089165E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FE62EB923EAC92F0089165E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FE62EBC23EAC92F0089165E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FE62EBE23EAC92F0089165E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +67,18 @@
 		2FE62ECE23EAC92F0089165E /* TRIFLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRIFLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE62ED223EAC92F0089165E /* TRIFLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRIFLEUITests.swift; sourceTree = "<group>"; };
 		2FE62ED423EAC92F0089165E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEBA95223F057FD00BA14EE /* TRTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRTabBarController.swift; sourceTree = "<group>"; };
+		2FEBA95423F058C300BA14EE /* TRHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TRHomeViewController.swift; path = ../TRHomeViewController.swift; sourceTree = "<group>"; };
+		2FEBA95623F0596F00BA14EE /* TRVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRVideoViewController.swift; sourceTree = "<group>"; };
+		2FEBA95823F059AA00BA14EE /* TRCommunicateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRCommunicateViewController.swift; sourceTree = "<group>"; };
+		2FEBA95A23F059F100BA14EE /* TRProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TRProfileViewController.swift; path = ../TRProfileViewController.swift; sourceTree = "<group>"; };
+		2FEBA95C23F05BED00BA14EE /* TRPublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPublishViewController.swift; sourceTree = "<group>"; };
+		2FF1BADA23F1B3D700468B7D /* UIImage-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-Extension.swift"; sourceTree = "<group>"; };
+		3E63C637086E7B3E2C9DF842 /* Pods-TRIFLETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLETests.release.xcconfig"; path = "Target Support Files/Pods-TRIFLETests/Pods-TRIFLETests.release.xcconfig"; sourceTree = "<group>"; };
+		9CE3571389123F9BCC447375 /* Pods-TRIFLETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLETests.debug.xcconfig"; path = "Target Support Files/Pods-TRIFLETests/Pods-TRIFLETests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB0CDA7EBBFCED3F44994F1C /* Pods_TRIFLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRIFLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46E06868F63F52EAEB7A679 /* Pods_TRIFLE_TRIFLEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRIFLE_TRIFLEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678978D3EA8328937F1E6A9 /* Pods-TRIFLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLE.debug.xcconfig"; path = "Target Support Files/Pods-TRIFLE/Pods-TRIFLE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDAB4D1E2E37243961875577 /* Pods_TRIFLE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0D79E19E342EDB8CB5E38F /* Pods_TRIFLETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CB6E4FB2113933E6AAC69C /* Pods_TRIFLE_TRIFLEUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,8 @@
 				2FE62EC623EAC92F0089165E /* TRIFLETests */,
 				2FE62ED123EAC92F0089165E /* TRIFLEUITests */,
 				2FE62EAE23EAC92E0089165E /* Products */,
+				C1683C1A8D440A9B5EF0B3B4 /* Pods */,
+				5FA1B803372169AC41F4FDCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +134,8 @@
 		2FE62EAF23EAC92E0089165E /* TRIFLE */ = {
 			isa = PBXGroup;
 			children = (
-				2FE62EB023EAC92E0089165E /* AppDelegate.swift */,
-				2FE62EB223EAC92E0089165E /* SceneDelegate.swift */,
-				2FE62EB423EAC92E0089165E /* ViewController.swift */,
-				2FE62EB623EAC92E0089165E /* Main.storyboard */,
-				2FE62EB923EAC92F0089165E /* Assets.xcassets */,
-				2FE62EBB23EAC92F0089165E /* LaunchScreen.storyboard */,
-				2FE62EBE23EAC92F0089165E /* Info.plist */,
+				2FE6F20E23F05462000E03C5 /* Classes */,
+				2FE6F20F23F0546C000E03C5 /* Resouce */,
 			);
 			path = TRIFLE;
 			sourceTree = "<group>";
@@ -128,6 +158,235 @@
 			path = TRIFLEUITests;
 			sourceTree = "<group>";
 		};
+		2FE6F20E23F05462000E03C5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2FE62EB023EAC92E0089165E /* AppDelegate.swift */,
+				2FEBA95223F057FD00BA14EE /* TRTabBarController.swift */,
+				2FEBA96223F05D2E00BA14EE /* Home */,
+				2FEBA96123F05D2900BA14EE /* Video */,
+				2FEBA96023F05D2300BA14EE /* Publish */,
+				2FEBA95F23F05D1C00BA14EE /* Communication */,
+				2FEBA95E23F05D0F00BA14EE /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2FE6F20F23F0546C000E03C5 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				2FE6F21123F05507000E03C5 /* System */,
+				2FE6F21023F054FD000E03C5 /* Other */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		2FE6F21023F054FD000E03C5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2FF1BADA23F1B3D700468B7D /* UIImage-Extension.swift */,
+				2F1A5E5923F1C2C600D409A8 /* UISegmentedControl-Extension.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2FE6F21123F05507000E03C5 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				2FE62EBB23EAC92F0089165E /* LaunchScreen.storyboard */,
+				2FE62EB923EAC92F0089165E /* Assets.xcassets */,
+				2FE62EBE23EAC92F0089165E /* Info.plist */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		2FEBA95E23F05D0F00BA14EE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA97123F05DDB00BA14EE /* Controller */,
+				2FEBA96F23F05DDB00BA14EE /* Model */,
+				2FEBA97023F05DDB00BA14EE /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2FEBA95F23F05D1C00BA14EE /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA96D23F05DCE00BA14EE /* Controller */,
+				2FEBA96C23F05DCE00BA14EE /* Model */,
+				2FEBA96E23F05DCF00BA14EE /* View */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		2FEBA96023F05D2300BA14EE /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA96B23F05DC100BA14EE /* Controller */,
+				2FEBA96A23F05DC100BA14EE /* Model */,
+				2FEBA96923F05DC100BA14EE /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		2FEBA96123F05D2900BA14EE /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA96623F05DB700BA14EE /* Controller */,
+				2FEBA96723F05DB700BA14EE /* Model */,
+				2FEBA96823F05DB700BA14EE /* View */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		2FEBA96223F05D2E00BA14EE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA96323F05DA900BA14EE /* Controller */,
+				2FEBA96423F05DA900BA14EE /* Model */,
+				2FEBA96523F05DA900BA14EE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2FEBA96323F05DA900BA14EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA95423F058C300BA14EE /* TRHomeViewController.swift */,
+				2F1A5E5B23F1C94E00D409A8 /* TRRecommendViewController.swift */,
+				2F1A5E5D23F1C97D00D409A8 /* TREttentionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEBA96423F05DA900BA14EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEBA96523F05DA900BA14EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEBA96623F05DB700BA14EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA95623F0596F00BA14EE /* TRVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEBA96723F05DB700BA14EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEBA96823F05DB700BA14EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEBA96923F05DC100BA14EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEBA96A23F05DC100BA14EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEBA96B23F05DC100BA14EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA95C23F05BED00BA14EE /* TRPublishViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEBA96C23F05DCE00BA14EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEBA96D23F05DCE00BA14EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA95823F059AA00BA14EE /* TRCommunicateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FEBA96E23F05DCF00BA14EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEBA96F23F05DDB00BA14EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F1A5E6123F1DEDA00D409A8 /* profile.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FEBA97023F05DDB00BA14EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F1A5E5F23F1DA1F00D409A8 /* TRLoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FEBA97123F05DDB00BA14EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBA95A23F059F100BA14EE /* TRProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5FA1B803372169AC41F4FDCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0CDA7EBBFCED3F44994F1C /* Pods_TRIFLE.framework */,
+				C46E06868F63F52EAEB7A679 /* Pods_TRIFLE_TRIFLEUITests.framework */,
+				247463F3BE9682B41348DA29 /* Pods_TRIFLETests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1683C1A8D440A9B5EF0B3B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D678978D3EA8328937F1E6A9 /* Pods-TRIFLE.debug.xcconfig */,
+				07811A9D8D07955F1C5FC7BD /* Pods-TRIFLE.release.xcconfig */,
+				2F775C1A8B63CE1BA739C37D /* Pods-TRIFLE-TRIFLEUITests.debug.xcconfig */,
+				0AEB01FDC1FC133F344005D3 /* Pods-TRIFLE-TRIFLEUITests.release.xcconfig */,
+				9CE3571389123F9BCC447375 /* Pods-TRIFLETests.debug.xcconfig */,
+				3E63C637086E7B3E2C9DF842 /* Pods-TRIFLETests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +394,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FE62ED723EAC92F0089165E /* Build configuration list for PBXNativeTarget "TRIFLE" */;
 			buildPhases = (
+				512A1785F2D8AD56B34B59D0 /* [CP] Check Pods Manifest.lock */,
 				2FE62EA923EAC92E0089165E /* Sources */,
 				2FE62EAA23EAC92E0089165E /* Frameworks */,
 				2FE62EAB23EAC92E0089165E /* Resources */,
+				DECA01F40341ECAC5F5F2045 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +413,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FE62EDA23EAC92F0089165E /* Build configuration list for PBXNativeTarget "TRIFLETests" */;
 			buildPhases = (
+				9105809491291E75CE0B014A /* [CP] Check Pods Manifest.lock */,
 				2FE62EBF23EAC92F0089165E /* Sources */,
 				2FE62EC023EAC92F0089165E /* Frameworks */,
 				2FE62EC123EAC92F0089165E /* Resources */,
@@ -170,9 +432,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FE62EDD23EAC92F0089165E /* Build configuration list for PBXNativeTarget "TRIFLEUITests" */;
 			buildPhases = (
+				0C850D3F2F627EE413562CD0 /* [CP] Check Pods Manifest.lock */,
 				2FE62ECA23EAC92F0089165E /* Sources */,
 				2FE62ECB23EAC92F0089165E /* Frameworks */,
 				2FE62ECC23EAC92F0089165E /* Resources */,
+				0EADAB4F0250685C97CCEFF1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +496,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1A5E6223F1DEDA00D409A8 /* profile.plist in Resources */,
 				2FE62EBD23EAC92F0089165E /* LaunchScreen.storyboard in Resources */,
 				2FE62EBA23EAC92F0089165E /* Assets.xcassets in Resources */,
-				2FE62EB823EAC92E0089165E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +518,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C850D3F2F627EE413562CD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRIFLE-TRIFLEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EADAB4F0250685C97CCEFF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRIFLE-TRIFLEUITests/Pods-TRIFLE-TRIFLEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRIFLE-TRIFLEUITests/Pods-TRIFLE-TRIFLEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TRIFLE-TRIFLEUITests/Pods-TRIFLE-TRIFLEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		512A1785F2D8AD56B34B59D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRIFLE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9105809491291E75CE0B014A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRIFLETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECA01F40341ECAC5F5F2045 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRIFLE/Pods-TRIFLE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRIFLE/Pods-TRIFLE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TRIFLE/Pods-TRIFLE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FE62EA923EAC92E0089165E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE62EB523EAC92E0089165E /* ViewController.swift in Sources */,
+				2FEBA95923F059AA00BA14EE /* TRCommunicateViewController.swift in Sources */,
+				2FEBA95D23F05BED00BA14EE /* TRPublishViewController.swift in Sources */,
+				2F1A5E6023F1DA1F00D409A8 /* TRLoginView.swift in Sources */,
+				2FEBA95323F057FD00BA14EE /* TRTabBarController.swift in Sources */,
 				2FE62EB123EAC92E0089165E /* AppDelegate.swift in Sources */,
-				2FE62EB323EAC92E0089165E /* SceneDelegate.swift in Sources */,
+				2FEBA95723F0596F00BA14EE /* TRVideoViewController.swift in Sources */,
+				2FF1BADB23F1B3D700468B7D /* UIImage-Extension.swift in Sources */,
+				2FEBA95B23F059F100BA14EE /* TRProfileViewController.swift in Sources */,
+				2F1A5E5C23F1C94E00D409A8 /* TRRecommendViewController.swift in Sources */,
+				2FEBA95523F058C300BA14EE /* TRHomeViewController.swift in Sources */,
+				2F1A5E5E23F1C97D00D409A8 /* TREttentionViewController.swift in Sources */,
+				2F1A5E5A23F1C2C600D409A8 /* UISegmentedControl-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +673,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2FE62EB623EAC92E0089165E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FE62EB723EAC92E0089165E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2FE62EBB23EAC92F0089165E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +734,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				INFOPLIST_FILE = /Users/yang/Desktop/TRIFLE/TRIFLE/Resouce/System/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +789,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				INFOPLIST_FILE = /Users/yang/Desktop/TRIFLE/TRIFLE/Resouce/System/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,11 +802,14 @@
 		};
 		2FE62ED823EAC92F0089165E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D678978D3EA8328937F1E6A9 /* Pods-TRIFLE.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2RFU452P5;
-				INFOPLIST_FILE = TRIFLE/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TRIFLE/Resouce/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,17 +817,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.trifle.www.TRIFLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2FE62ED923EAC92F0089165E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07811A9D8D07955F1C5FC7BD /* Pods-TRIFLE.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2RFU452P5;
-				INFOPLIST_FILE = TRIFLE/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TRIFLE/Resouce/System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,12 +838,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.trifle.www.TRIFLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		2FE62EDB23EAC92F0089165E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE3571389123F9BCC447375 /* Pods-TRIFLETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +867,7 @@
 		};
 		2FE62EDC23EAC92F0089165E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E63C637086E7B3E2C9DF842 /* Pods-TRIFLETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,8 +890,9 @@
 		};
 		2FE62EDE23EAC92F0089165E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F775C1A8B63CE1BA739C37D /* Pods-TRIFLE-TRIFLEUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2RFU452P5;
 				INFOPLIST_FILE = TRIFLEUITests/Info.plist;
@@ -532,8 +911,9 @@
 		};
 		2FE62EDF23EAC92F0089165E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEB01FDC1FC133F344005D3 /* Pods-TRIFLE-TRIFLEUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2RFU452P5;
 				INFOPLIST_FILE = TRIFLEUITests/Info.plist;
