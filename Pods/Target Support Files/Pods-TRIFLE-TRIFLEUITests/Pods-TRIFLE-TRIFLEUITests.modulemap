@@ -1,0 +1,6 @@
+framework module Pods_TRIFLE_TRIFLEUITests {
+  umbrella header "Pods-TRIFLE-TRIFLEUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
