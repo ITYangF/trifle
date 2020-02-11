@@ -74,6 +74,9 @@ class TRLoginView: UIView {
                     print("手机")
             case .QQ:
                     print("qq")
+                    let appDel = UIApplication.shared.delegate as! AppDelegate
+                    let permissions = [kOPEN_PERMISSION_GET_USER_INFO, kOPEN_PERMISSION_GET_SIMPLE_USER_INFO]
+                    appDel.tencentAuth.authorize(permissions)
         }
     }
 }

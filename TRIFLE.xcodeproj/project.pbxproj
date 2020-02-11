@@ -13,6 +13,16 @@
 		2F1A5E5E23F1C97D00D409A8 /* TREttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5E5D23F1C97D00D409A8 /* TREttentionViewController.swift */; };
 		2F1A5E6023F1DA1F00D409A8 /* TRLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5E5F23F1DA1F00D409A8 /* TRLoginView.swift */; };
 		2F1A5E6223F1DEDA00D409A8 /* profile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F1A5E6123F1DEDA00D409A8 /* profile.plist */; };
+		2FE2748023F2F49A00AB2412 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2747F23F2F49A00AB2412 /* TencentOpenAPI.framework */; };
+		2FE2748223F2F4A800AB2412 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2748123F2F4A800AB2412 /* SystemConfiguration.framework */; };
+		2FE2748723F30DA300AB2412 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FE2748623F30DA300AB2412 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		2FE2748D23F30F8B00AB2412 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2748C23F30F8B00AB2412 /* Security.framework */; };
+		2FE2748F23F30F9600AB2412 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2748E23F30F9600AB2412 /* CoreGraphics.framework */; };
+		2FE2749123F30F9F00AB2412 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2749023F30F9F00AB2412 /* CoreTelephony.framework */; };
+		2FE2749323F30FB500AB2412 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2749223F30FB500AB2412 /* libiconv.tbd */; };
+		2FE2749523F30FC400AB2412 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2749423F30FC400AB2412 /* libsqlite3.tbd */; };
+		2FE2749723F30FD900AB2412 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2749623F30FD900AB2412 /* libc++.tbd */; };
+		2FE2749923F30FDF00AB2412 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2749823F30FDF00AB2412 /* libz.tbd */; };
 		2FE62EB123EAC92E0089165E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE62EB023EAC92E0089165E /* AppDelegate.swift */; };
 		2FE62EBA23EAC92F0089165E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE62EB923EAC92F0089165E /* Assets.xcassets */; };
 		2FE62EBD23EAC92F0089165E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE62EBB23EAC92F0089165E /* LaunchScreen.storyboard */; };
@@ -56,6 +66,17 @@
 		2F1A5E5F23F1DA1F00D409A8 /* TRLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRLoginView.swift; sourceTree = "<group>"; };
 		2F1A5E6123F1DEDA00D409A8 /* profile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = profile.plist; sourceTree = "<group>"; };
 		2F775C1A8B63CE1BA739C37D /* Pods-TRIFLE-TRIFLEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLE-TRIFLEUITests.debug.xcconfig"; path = "Target Support Files/Pods-TRIFLE-TRIFLEUITests/Pods-TRIFLE-TRIFLEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FE2747F23F2F49A00AB2412 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		2FE2748123F2F4A800AB2412 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2FE2748623F30DA300AB2412 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		2FE2748C23F30F8B00AB2412 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2FE2748E23F30F9600AB2412 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FE2749023F30F9F00AB2412 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2FE2749223F30FB500AB2412 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		2FE2749423F30FC400AB2412 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2FE2749623F30FD900AB2412 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2FE2749823F30FDF00AB2412 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2FE2749A23F3112200AB2412 /* TRIFLE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRIFLE-Bridging-Header.h"; sourceTree = "<group>"; };
 		2FE62EAD23EAC92E0089165E /* TRIFLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRIFLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE62EB023EAC92E0089165E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE62EB923EAC92F0089165E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,7 +107,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE2749923F30FDF00AB2412 /* libz.tbd in Frameworks */,
+				2FE2749723F30FD900AB2412 /* libc++.tbd in Frameworks */,
+				2FE2749523F30FC400AB2412 /* libsqlite3.tbd in Frameworks */,
+				2FE2749323F30FB500AB2412 /* libiconv.tbd in Frameworks */,
+				2FE2749123F30F9F00AB2412 /* CoreTelephony.framework in Frameworks */,
+				2FE2748F23F30F9600AB2412 /* CoreGraphics.framework in Frameworks */,
+				2FE2748D23F30F8B00AB2412 /* Security.framework in Frameworks */,
+				2FE2748223F2F4A800AB2412 /* SystemConfiguration.framework in Frameworks */,
 				FDAB4D1E2E37243961875577 /* Pods_TRIFLE.framework in Frameworks */,
+				2FE2748023F2F49A00AB2412 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +164,9 @@
 		2FE62EAF23EAC92E0089165E /* TRIFLE */ = {
 			isa = PBXGroup;
 			children = (
+				2FE2749A23F3112200AB2412 /* TRIFLE-Bridging-Header.h */,
+				2FE2748623F30DA300AB2412 /* TencentOpenApi_IOS_Bundle.bundle */,
+				2FE2747F23F2F49A00AB2412 /* TencentOpenAPI.framework */,
 				2FE6F20E23F05462000E03C5 /* Classes */,
 				2FE6F20F23F0546C000E03C5 /* Resouce */,
 			);
@@ -367,6 +400,14 @@
 		5FA1B803372169AC41F4FDCD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FE2749823F30FDF00AB2412 /* libz.tbd */,
+				2FE2749623F30FD900AB2412 /* libc++.tbd */,
+				2FE2749423F30FC400AB2412 /* libsqlite3.tbd */,
+				2FE2749223F30FB500AB2412 /* libiconv.tbd */,
+				2FE2749023F30F9F00AB2412 /* CoreTelephony.framework */,
+				2FE2748E23F30F9600AB2412 /* CoreGraphics.framework */,
+				2FE2748C23F30F8B00AB2412 /* Security.framework */,
+				2FE2748123F2F4A800AB2412 /* SystemConfiguration.framework */,
 				AB0CDA7EBBFCED3F44994F1C /* Pods_TRIFLE.framework */,
 				C46E06868F63F52EAEB7A679 /* Pods_TRIFLE_TRIFLEUITests.framework */,
 				247463F3BE9682B41348DA29 /* Pods_TRIFLETests.framework */,
@@ -496,6 +537,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE2748723F30DA300AB2412 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				2F1A5E6223F1DEDA00D409A8 /* profile.plist in Resources */,
 				2FE62EBD23EAC92F0089165E /* LaunchScreen.storyboard in Resources */,
 				2FE62EBA23EAC92F0089165E /* Assets.xcassets in Resources */,
@@ -808,14 +850,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2RFU452P5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TRIFLE",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/TRIFLE/Resouce/System/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trifle.www.TRIFLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yang/Desktop/trifle/TRIFLE/TRIFLE-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -829,14 +886,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2RFU452P5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TRIFLE",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/TRIFLE/Resouce/System/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trifle.www.TRIFLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yang/Desktop/trifle/TRIFLE/TRIFLE-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
