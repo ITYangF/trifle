@@ -16,6 +16,7 @@ class TRTabBarController: UITabBarController {
         self.tabBar.tintColor = UIColor.red
         
     }
+    
     // MARK: -给图标添加点击动画
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()

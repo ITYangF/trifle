@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TRCommunicateViewController: UIViewController {
+class TRCommunicateViewController: TRBaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

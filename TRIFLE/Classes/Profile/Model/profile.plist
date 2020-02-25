@@ -10,11 +10,11 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>入党信息</string>
+		<string>个人信息</string>
 		<key>VCName</key>
 		<string>message</string>
 		<key>detail</key>
-		<string>完成度0%</string>
+		<string>联系好友</string>
 	</dict>
 	<dict>
 		<key>title</key>
@@ -27,12 +27,6 @@
 		<string>我的好友</string>
 		<key>VCName</key>
 		<string>friend</string>
-	</dict>
-	<dict>
-		<key>title</key>
-		<string>手机绑定</string>
-		<key>VCName</key>
-		<string>binding</string>
 	</dict>
 	<dict>
 		<key>title</key>

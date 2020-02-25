@@ -8,11 +8,10 @@
 
 import UIKit
 
-class TREttentionViewController: UITableViewController {
+class TREttentionViewController: TRBaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.blue
     }
 
     // MARK: - Table view data source

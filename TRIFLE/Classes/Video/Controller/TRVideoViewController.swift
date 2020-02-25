@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TRVideoViewController: UITableViewController {
+class TRVideoViewController: TRBaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -13,6 +13,7 @@
 		2F1A5E5E23F1C97D00D409A8 /* TREttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5E5D23F1C97D00D409A8 /* TREttentionViewController.swift */; };
 		2F1A5E6023F1DA1F00D409A8 /* TRLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A5E5F23F1DA1F00D409A8 /* TRLoginView.swift */; };
 		2F1A5E6223F1DEDA00D409A8 /* profile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F1A5E6123F1DEDA00D409A8 /* profile.plist */; };
+		2F4E0EBA240507E900C639C8 /* UserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E0EB9240507E900C639C8 /* UserAccountViewModel.swift */; };
 		2FE2748023F2F49A00AB2412 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2747F23F2F49A00AB2412 /* TencentOpenAPI.framework */; };
 		2FE2748223F2F4A800AB2412 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2748123F2F4A800AB2412 /* SystemConfiguration.framework */; };
 		2FE2748723F30DA300AB2412 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FE2748623F30DA300AB2412 /* TencentOpenApi_IOS_Bundle.bundle */; };
@@ -32,9 +33,14 @@
 		2FEBA95523F058C300BA14EE /* TRHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95423F058C300BA14EE /* TRHomeViewController.swift */; };
 		2FEBA95723F0596F00BA14EE /* TRVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95623F0596F00BA14EE /* TRVideoViewController.swift */; };
 		2FEBA95923F059AA00BA14EE /* TRCommunicateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95823F059AA00BA14EE /* TRCommunicateViewController.swift */; };
-		2FEBA95B23F059F100BA14EE /* TRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95A23F059F100BA14EE /* TRProfileViewController.swift */; };
 		2FEBA95D23F05BED00BA14EE /* TRPublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBA95C23F05BED00BA14EE /* TRPublishViewController.swift */; };
 		2FF1BADB23F1B3D700468B7D /* UIImage-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1BADA23F1B3D700468B7D /* UIImage-Extension.swift */; };
+		2FF296E723F4462B00698C9A /* TRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF296E623F4462B00698C9A /* TRProfileViewController.swift */; };
+		2FF296ED23F446A500698C9A /* TRBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF296EC23F446A500698C9A /* TRBaseTableViewController.swift */; };
+		2FF296EF23F4471600698C9A /* TRVisitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF296EE23F4471600698C9A /* TRVisitView.swift */; };
+		2FF296F123F4586900698C9A /* TRUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF296F023F4586900698C9A /* TRUserView.swift */; };
+		2FF296F423F46E4000698C9A /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF296F323F46E4000698C9A /* UserAccount.swift */; };
+		2FF296F623F470CB00698C9A /* TRLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF296F523F470CB00698C9A /* TRLogin.swift */; };
 		3A0D79E19E342EDB8CB5E38F /* Pods_TRIFLETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247463F3BE9682B41348DA29 /* Pods_TRIFLETests.framework */; };
 		FDAB4D1E2E37243961875577 /* Pods_TRIFLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0CDA7EBBFCED3F44994F1C /* Pods_TRIFLE.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +71,7 @@
 		2F1A5E5D23F1C97D00D409A8 /* TREttentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TREttentionViewController.swift; sourceTree = "<group>"; };
 		2F1A5E5F23F1DA1F00D409A8 /* TRLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRLoginView.swift; sourceTree = "<group>"; };
 		2F1A5E6123F1DEDA00D409A8 /* profile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = profile.plist; sourceTree = "<group>"; };
+		2F4E0EB9240507E900C639C8 /* UserAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountViewModel.swift; sourceTree = "<group>"; };
 		2F775C1A8B63CE1BA739C37D /* Pods-TRIFLE-TRIFLEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLE-TRIFLEUITests.debug.xcconfig"; path = "Target Support Files/Pods-TRIFLE-TRIFLEUITests/Pods-TRIFLE-TRIFLEUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FE2747F23F2F49A00AB2412 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		2FE2748123F2F4A800AB2412 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -92,9 +99,14 @@
 		2FEBA95423F058C300BA14EE /* TRHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TRHomeViewController.swift; path = ../TRHomeViewController.swift; sourceTree = "<group>"; };
 		2FEBA95623F0596F00BA14EE /* TRVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRVideoViewController.swift; sourceTree = "<group>"; };
 		2FEBA95823F059AA00BA14EE /* TRCommunicateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRCommunicateViewController.swift; sourceTree = "<group>"; };
-		2FEBA95A23F059F100BA14EE /* TRProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TRProfileViewController.swift; path = ../TRProfileViewController.swift; sourceTree = "<group>"; };
 		2FEBA95C23F05BED00BA14EE /* TRPublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPublishViewController.swift; sourceTree = "<group>"; };
 		2FF1BADA23F1B3D700468B7D /* UIImage-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-Extension.swift"; sourceTree = "<group>"; };
+		2FF296E623F4462B00698C9A /* TRProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRProfileViewController.swift; sourceTree = "<group>"; };
+		2FF296EC23F446A500698C9A /* TRBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRBaseTableViewController.swift; sourceTree = "<group>"; };
+		2FF296EE23F4471600698C9A /* TRVisitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRVisitView.swift; sourceTree = "<group>"; };
+		2FF296F023F4586900698C9A /* TRUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRUserView.swift; sourceTree = "<group>"; };
+		2FF296F323F46E4000698C9A /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		2FF296F523F470CB00698C9A /* TRLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRLogin.swift; sourceTree = "<group>"; };
 		3E63C637086E7B3E2C9DF842 /* Pods-TRIFLETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLETests.release.xcconfig"; path = "Target Support Files/Pods-TRIFLETests/Pods-TRIFLETests.release.xcconfig"; sourceTree = "<group>"; };
 		9CE3571389123F9BCC447375 /* Pods-TRIFLETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRIFLETests.debug.xcconfig"; path = "Target Support Files/Pods-TRIFLETests/Pods-TRIFLETests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB0CDA7EBBFCED3F44994F1C /* Pods_TRIFLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRIFLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +151,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F4E0EBB24050D3D00C639C8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		2FE62EA423EAC92E0089165E = {
 			isa = PBXGroup;
 			children = (
@@ -196,11 +215,14 @@
 			children = (
 				2FE62EB023EAC92E0089165E /* AppDelegate.swift */,
 				2FEBA95223F057FD00BA14EE /* TRTabBarController.swift */,
+				2FF296F223F46E3100698C9A /* Login */,
+				2FF296E823F4468600698C9A /* Visitor */,
 				2FEBA96223F05D2E00BA14EE /* Home */,
 				2FEBA96123F05D2900BA14EE /* Video */,
 				2FEBA96023F05D2300BA14EE /* Publish */,
 				2FEBA95F23F05D1C00BA14EE /* Communication */,
 				2FEBA95E23F05D0F00BA14EE /* Profile */,
+				2F4E0EBB24050D3D00C639C8 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -236,7 +258,7 @@
 		2FEBA95E23F05D0F00BA14EE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				2FEBA97123F05DDB00BA14EE /* Controller */,
+				2FF296E523F4461B00698C9A /* Controller */,
 				2FEBA96F23F05DDB00BA14EE /* Model */,
 				2FEBA97023F05DDB00BA14EE /* View */,
 			);
@@ -385,16 +407,60 @@
 			isa = PBXGroup;
 			children = (
 				2F1A5E5F23F1DA1F00D409A8 /* TRLoginView.swift */,
+				2FF296F023F4586900698C9A /* TRUserView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		2FEBA97123F05DDB00BA14EE /* Controller */ = {
+		2FF296E523F4461B00698C9A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2FEBA95A23F059F100BA14EE /* TRProfileViewController.swift */,
+				2FF296E623F4462B00698C9A /* TRProfileViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FF296E823F4468600698C9A /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				2FF296E923F4468600698C9A /* Controller */,
+				2FF296EA23F4468600698C9A /* Model */,
+				2FF296EB23F4468600698C9A /* View */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		2FF296E923F4468600698C9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FF296EC23F446A500698C9A /* TRBaseTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FF296EA23F4468600698C9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FF296EB23F4468600698C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FF296EE23F4471600698C9A /* TRVisitView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FF296F223F46E3100698C9A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2FF296F523F470CB00698C9A /* TRLogin.swift */,
+				2FF296F323F46E4000698C9A /* UserAccount.swift */,
+				2F4E0EB9240507E900C639C8 /* UserAccountViewModel.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		5FA1B803372169AC41F4FDCD /* Frameworks */ = {
@@ -669,17 +735,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FEBA95923F059AA00BA14EE /* TRCommunicateViewController.swift in Sources */,
+				2F4E0EBA240507E900C639C8 /* UserAccountViewModel.swift in Sources */,
 				2FEBA95D23F05BED00BA14EE /* TRPublishViewController.swift in Sources */,
 				2F1A5E6023F1DA1F00D409A8 /* TRLoginView.swift in Sources */,
 				2FEBA95323F057FD00BA14EE /* TRTabBarController.swift in Sources */,
+				2FF296F423F46E4000698C9A /* UserAccount.swift in Sources */,
 				2FE62EB123EAC92E0089165E /* AppDelegate.swift in Sources */,
 				2FEBA95723F0596F00BA14EE /* TRVideoViewController.swift in Sources */,
+				2FF296F123F4586900698C9A /* TRUserView.swift in Sources */,
 				2FF1BADB23F1B3D700468B7D /* UIImage-Extension.swift in Sources */,
-				2FEBA95B23F059F100BA14EE /* TRProfileViewController.swift in Sources */,
 				2F1A5E5C23F1C94E00D409A8 /* TRRecommendViewController.swift in Sources */,
 				2FEBA95523F058C300BA14EE /* TRHomeViewController.swift in Sources */,
+				2FF296F623F470CB00698C9A /* TRLogin.swift in Sources */,
 				2F1A5E5E23F1C97D00D409A8 /* TREttentionViewController.swift in Sources */,
+				2FF296E723F4462B00698C9A /* TRProfileViewController.swift in Sources */,
 				2F1A5E5A23F1C2C600D409A8 /* UISegmentedControl-Extension.swift in Sources */,
+				2FF296EF23F4471600698C9A /* TRVisitView.swift in Sources */,
+				2FF296ED23F446A500698C9A /* TRBaseTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,7 +944,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trifle.www.TRIFLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yang/Desktop/trifle/TRIFLE/TRIFLE-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yang/Desktop/iOS/demo/swift/trifle/TRIFLE/TRIFLE-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -908,7 +980,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.trifle.www.TRIFLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yang/Desktop/trifle/TRIFLE/TRIFLE-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yang/Desktop/iOS/demo/swift/trifle/TRIFLE/TRIFLE-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

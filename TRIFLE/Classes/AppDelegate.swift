@@ -9,11 +9,13 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate ,TencentSessionDelegate{
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
     
     var window: UIWindow?
     var tencentAuth: TencentOAuth!
+    var tencentAuthDelegate: TRLogin!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         
@@ -22,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate ,TencentSessionDelegate{
         
         window?.makeKeyAndVisible()
         
-        
-        self.tencentAuth = TencentOAuth(appId: "1109847615", andDelegate: self)
+        self.tencentAuthDelegate = TRLogin()
+        self.tencentAuth = TencentOAuth(appId: "1109847615", andDelegate: self.tencentAuthDelegate)
         return true
     }
     
@@ -37,41 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate ,TencentSessionDelegate{
         
     }
     
-    func tencentDidLogin() {
-        self.tencentAuth.getUserInfo()
-    }
     
-    func tencentDidNotLogin(_ cancelled: Bool) {
-        
-    }
     
-    func tencentDidNotNetWork() {
-        
-    }
-    
-    func getUserInfoResponse(_ response: APIResponse!) {
-        if response.retCode == 0 {
-        
-            if let res = response.jsonResponse {
-                             
-                if let uid = self.tencentAuth.getUserOpenID() {
-                   print(uid)
-                }
-                
-                if let name = res["nickname"] {
-                    print(name)
-                }
-                
-                if let sex = res["gender"] {
-                    print(sex)
-                }
-                
-                if let img = res["figureurl_qq_2"] {
-                    print(img)
-                }
-            }
-        }
-        
-    }
 }
 

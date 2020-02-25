@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TRPublishViewController: UIViewController {
+class TRPublishViewController: TRBaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
